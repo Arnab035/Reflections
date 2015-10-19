@@ -1,0 +1,34 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+  Suppose we make some changes to any existing file of code. The new code is regression tested, but as we test it, it leads to a new error. So in such cases, we would definitely want to revert back to the old code so that atleast the new error is gone and we can implement the new requirement differently. Having the previous versions saves a lot of time in cases like these. Having no such access would probably take a lot more time to revert back to the old code. There are various other ways in which version control helps a programmer.
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+  Manual saving is a bit risky because it totally depends on the programmer. The programmer needs to be alert while making logical commits.
+  But at the same time, it allows the programmer to make logical commits. The programmer need not worry about the fact that in the middle of a code change , there is an unnecessary commit. It provides flexibility in writing code. So automatic version control, can sometimes either lead to unnecessary commits or no commits at all in which case, it is left to the programmer again.
+
+  git -log
+  git diff commit id-1 commit id-2
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+  Because Git deals with code and multiple files in one git repository means that all are related. So any change made in a file and committed will commit the other files also even though they may not have changed. But in cases like say we add a new HTML element and in our html file. And then we add a CSS style rule for that element. Executing a commit on the HTML file appropriately commits the CSS file also. We need not separately commit the CSS file. This saves time and can avoid discrepancies later.
+
+  Google docs do not directly associate themselves with code. So they cannot treat two documents as part of a single entity. They will always treat them as two different, completely unrelated piece of information.
+
+ How can you use the commands git log and git diff to view the history of files?
+
+  Git log helps us to see all the commits that have been made so far in our repository. As per the commit description, you can choose any commit for comparison with the previous or next commits.
+  For this we use git diff commit-id1(previous commit) commit-id2(current commit).
+    or you can also do
+   commit-id1(current commit) commit-id2(next commit).
+
+ How might using version control make you more confident to make changes that could break something?
+
+   I can now track in which version the buggy code got introduced using git checkout and then running that version of the code.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   When I am doing some development projects , that requires some version control. I will use Git.
