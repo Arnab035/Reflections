@@ -1,4 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
  When we initialize a repository, we indirectly enable version control on it. This is important to perform commits and track changes in the file.
- 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ The staging area cannot be physically seen like our working directory or repository. The staging area is like a virtual intermediary location in the git- version control system that temporarily houses our files for final commits. It allows us to think twice before commiting. By providing an intermediate location, we can, if we want, to reset the files back to the working directory so that we can make some more changes before making a final commit. So there is always a 2-point check for commit. That is quite good.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+ Every time, we make some changes to the files in the working directory and want to commit them, we can add the files to the staging directory. Then using git diff --staged, we can see differences between the file in staging and the most recent commit. Then if we are satisfied we can commit the files. This allows us to have only one commit per logical change.
