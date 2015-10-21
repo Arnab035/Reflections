@@ -17,3 +17,9 @@ What are some situations when branches would be helpful in keeping your history 
  How do the diagrams help you visualize the branch structure?
 
   Makes it easier to view branches in the code history. By tracing out diagrams you can actually visualise the parent of a certain commit and know where actually the branches originated. 
+
+
+ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  Merging adds up code from both branches and finally forms a single branch. This branch would include code and functionality from both the branches.
+  To indicate that items from two branches have been combined and formed one branch, we indicate this data in the diagram in the fashion described.
