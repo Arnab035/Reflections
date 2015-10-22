@@ -23,3 +23,8 @@ What are some situations when branches would be helpful in keeping your history 
 
   Merging adds up code from both branches and finally forms a single branch. This branch would include code and functionality from both the branches.
   To indicate that items from two branches have been combined and formed one branch, we indicate this data in the diagram in the fashion described.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  It saves time. Instead of looking manually through the entire code and then merging, removing conflicts, git does it automatically indicating all the conflicts to be seen in the code.
+  The problem here is since everything is done automatically, sometimes it is highly likely git will not be able to determine conflicts. If in one branch we use a for loop, and in the other a while loop, running the same code inside the loops, it may again lead to conflicts that git might fail to detect.
