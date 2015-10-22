@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  A remote repo is helpful in that it can save all your data in case your local machine gets corrupted or all your data from 
+your local machine is erased in the event of any failure. Any damage to your local machine does not mean the remote repo
+stored remotely in some other computer gets damaged . That is one big advantage of creating a remote repo.
