@@ -7,3 +7,15 @@ stored remotely in some other computer gets damaged . That is one big advantage 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
  I am not sure, probably this gives us an option of keeping some changes in the remote repo invisible locally.  We can only pull those commits or branches which we want to work on locally.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ Branch is like a commit made on a repository. Say A is a commit on a repository. We make some changes to it and another commit B is established. Now say there was a bug in A, so we need to checkout commit A again and resolve the bug to establish another commit C. This gives us A<-B and A<-C. B is a branch and again C is a branch.
+
+ Clone is like copying the entire repository either from a remote machine to our local or copying an already existing repository in local to spawn a new repository again in our local machine. We will use cloning essentially to copy repositories from remote-> local or from local->local.
+
+ Forking a repository means to copy a repository in a remote server like github to spawn a repository back again in the remote server. This applies for copying within the remote server itself.
+
+
+
+ 
