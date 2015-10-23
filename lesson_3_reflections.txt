@@ -20,6 +20,14 @@ What is the benefit of having a copy of the last known state of the remote store
 
  Having a local copy of the last known remote state helps to track changes made only in the remote and not made locally. If certain changes are made in the remote repository and committed, then it is very difficult to track the commit history locally, even though remotely we can see. That is a great benefit of having the last known state of the commit so we can track locally from which commit changes have been made to the remote repo. Can be helpful when commits go out-of-sync.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ Emails probably or create a Google group/ Google hangouts session. But it would be difficult, wouldn't it. Especially for large projects, it would become a curse. When you work on large projects and the volume of code to work with becomes large, having a collaboration site like Github would be great. Because it makes sharing easy and tracking also.Share it over a server and collaborators can have access anytime and anywhere.
+
+ Without Github, one thing would be easy. The communication between collaborators would be more transparent and faster. This would only involve smaller projects. But the communication levels are much better compared to a code-sharing site like github. 
+
+ Many other factors are there but only listing these.
+
 
 
  
